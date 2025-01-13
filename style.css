@@ -1,0 +1,48 @@
+.text-center {
+    text-align: center !important;
+
+}
+
+.mb-5 {
+    margin-bottom: 3rem;
+}
+
+.mt-5 {
+    margin-top: 3rem;
+}
+
+.btn-check:active {
+    color: #fff;
+    background-color: #1a1e21;
+    border-color: #191c1f;
+}
+
+.checkcheck {
+    border: 2px solid red;
+}
+
+.pb-5 {
+    padding-bottom: 3rem !important;
+}
+
+.pt-5 {
+    padding-top: 3rem !important;
+}
+footer{
+    background: #19110b;
+    font-size: 14px;
+}
+.first-line{
+    color:white;
+    border-bottom: 1px solid #392d23 ;
+    text-align: center
+}
+
+.flag {
+    color:white;
+}
+
+.second-line a {
+    color: white;
+    text-decoration: none;
+}
