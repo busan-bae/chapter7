@@ -1,15 +1,20 @@
-.text-center {
-    text-align: center !important;
-
+.btn-outline-success {
+    color: chocolate;
+    border-color: chocolate;
 }
 
-.mb-5 {
-    margin-bottom: 3rem;
+.btn-outline-success:hover {
+    color: white;
+    border-color: chocolate;
+    background-color: chocolate;
 }
 
-.mt-5 {
-    margin-top: 3rem;
+.flag {
+    color:white;
 }
+
+
+
 
 .btn-check:active {
     color: #fff;
@@ -21,13 +26,6 @@
     border: 2px solid red;
 }
 
-.pb-5 {
-    padding-bottom: 3rem !important;
-}
-
-.pt-5 {
-    padding-top: 3rem !important;
-}
 footer{
     background: #19110b;
     font-size: 14px;
@@ -35,7 +33,6 @@ footer{
 .first-line{
     color:white;
     border-bottom: 1px solid #392d23 ;
-    text-align: center
 }
 
 .flag {
@@ -45,4 +42,31 @@ footer{
 .second-line a {
     color: white;
     text-decoration: none;
+}
+
+.third-line {
+    display: none;
+    color: white;
+}
+
+
+@media screen and (max-width:48rem) {
+    .first-line {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:48rem) {
+    .second-line {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        border-bottom: 1px solid #392d23 ;
+    }
+    .third-line {
+        display:block;
+    }
+.third-lines {
+    display: none;
+}
+
 }
